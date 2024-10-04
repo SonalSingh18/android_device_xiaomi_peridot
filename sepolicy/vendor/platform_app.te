@@ -1,0 +1,7 @@
+allow platform_app vendor_audio_prop:file { read open getattr map };
+allow platform_app vendor_displayfeature_prop:file { open getattr map read };
+allow platform_app vendor_camera_sensor_prop:file { open getattr map read };
+allow platform_app vendor_default_prop:file { open getattr map read };
+allow platform_app vendor_camera_p3enable_prop:file { read open getattr map };
+allow platform_app vendor_file:file { open getattr map read };
+allow platform_app vendor_file:file execute;
